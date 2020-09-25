@@ -1,0 +1,165 @@
+
+
+.flex-container {
+    margin-top: 180px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+}
+
+.search-bar {
+    width: 500px;
+
+}
+
+.input {
+    min-width: 100%; /* take the width of a parent div */
+    max-width: 100%; /* take the width of a parent div */
+    height: 35px;
+    border-radius: 17px;
+    border-width: 1px;
+    border-color: #D3D3D3;
+    margin-bottom: 20px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input:hover {
+    box-shadow: 0px 0px 5px rgba(56, 169, 240, 0.75);
+}
+
+
+.button-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    height: 50px;
+}
+
+.button {
+    height: 32px;
+    text-size: 10px;
+    color: grey;
+    border: none;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 4px;
+}
+
+.button-width {
+    width: 250px;
+}
+
+.btn1 {
+    float: left;
+}
+
+.btn2 {
+    float: right;
+}
+
+.btn1:hover, .btn2:hover {
+    cursor: pointer;
+}
+
+.lang-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang {
+    margin-left: 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+.lang, .lang-container {
+    font-family: arial;
+    font-size: 13px;
+}
+
+header {
+    width: 500x;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+    color: grey;
+}
+
+
+.big-title {
+    font-weight: normal;
+    font-family: Verdana;
+}
+
+.small-title {
+    font-size: 20px;
+}
+
+.login-block {
+    background-color: #f7f7f7;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.login-block img {
+    margin-top: 40px;
+}
+
+.login-block input {
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+    background-color: #faffba;
+    border: 1px solid grey;
+}
+
+.login-block input:focus, .next-btn:focus {
+    outline: none;
+}
+
+.login-block input::placeholder {
+    padding-left: 10px;
+    font-size: 15px;
+    font-color: ##3D3D3;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.next-btn {
+    width: 307px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 8px;
+    background-color: #4587f6;
+    color: white;
+    font-weight: bold;
+}
+
+.login-block p {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+#new-acc, .login-block p {
+    color: #4587f6;
+    font-weight: bold;
+}
+
+.other-acc p {
+    color: black;
+}
